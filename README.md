@@ -1,14 +1,20 @@
 
 wireframe.png for my basic idea. Whole page centered.
 
-## Making a plan
+Red Panda is my favorite.
 
-1. Make a drawing of your app. **Simple "wireframes"**
-1. Once you have a drawing, **name the HTML elements** you'll need to realize your vision**
-1. For each HTML element ask: **Why do I need this?**
-    - Does this element need **static content**, or is the content **dynamic state**?
-    - If **state** where is the source of truth?
-1. **Find all the 'events'** (user clicks, form submit, on load etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
-1. Once we know the _why_ of elements, state, and events -- think about how to implement the "Why" as a "How"
-1. Think about how to **validate each of your features** according to a Definition of Done
-1. Consider what features **_depend_ on what other features**. Use this dependency logic to figure out what order to complete tasks.
+Make my buttons dissapear once clicked to make the page more clean.
+
+Add a default name and picture that appears once the button is clicked
+
+Need
+
+Checkbox to enable button
+Button to unhide animal stuff
+Image selector and display
+Animal name and display
+Theme selector
+
+
+
+
