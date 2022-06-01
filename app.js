@@ -6,6 +6,7 @@ const imageSelector = document.getElementById('image-selector');
 const selectedImage = document.getElementById('selected-image');
 const animalNamer = document.getElementById('animal-name');
 const namedAnimal = document.getElementById('named-animal');
+const theme = document.getElementById('theme-selector');
 
 checkbox.addEventListener('change', () => {
     unhideAnimal.disabled = checkbox.checked;
@@ -24,4 +25,9 @@ imageSelector.addEventListener('change', () => {
 
 animalNamer.addEventListener('input', () => {
     namedAnimal.textContent = animalNamer.value;
+});
+
+theme.addEventListener('change', () => {
+    selectedImage.style.border = `15px solid ${theme.value}`; 
+    
 });
