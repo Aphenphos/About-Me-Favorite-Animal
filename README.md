@@ -1,20 +1,14 @@
 
 wireframe.png for my basic idea. Whole page centered.
 
-Red Panda is my favorite.
+About me section of?
 
-Make my buttons dissapear once clicked to make the page more clean.
+Input checkbox - unlocks display animal button and disappears once clicked
 
-Add a default name and picture that appears once the button is clicked
+Input button - Unhides animal stuff and disappears once clicked
 
-Need
+Input animalName - display a default animal name that changes when user inputs a new name
 
-Checkbox to enable button
-Button to unhide animal stuff
-Image selector and display
-Animal name and display
-Theme selector
+Input animalPic - dropdown menu with list of pictures to select from
 
-
-
-
+Input themeSelector -dropdown that shows a list of themes to choose from that changes the background of the pic
