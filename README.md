@@ -1,14 +1,22 @@
 
 wireframe.png for my basic idea. Whole page centered.
 
-About me section of?
 
-Input checkbox - unlocks display animal button and disappears once clicked
+wireframe.png for my basic idea. Whole page centered.
 
-Input button - Unhides animal stuff and disappears once clicked
 
-Input animalName - display a default animal name that changes when user inputs a new name
+State - Checkbox 
+Event - Onclick unlocks input button
 
-Input animalPic - dropdown menu with list of pictures to select from
+State - Button
+Event - Unhides animal display
 
-Input themeSelector -dropdown that shows a list of themes to choose from that changes the background of the pic
+State - Input Box
+Event - Changes animal display name
+
+State - Dropdown Menu
+Event - Changes animal display picture
+
+State - Dropdown Menu
+Event - Changes animal background theme
+
