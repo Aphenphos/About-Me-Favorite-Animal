@@ -16,12 +16,12 @@ checkbox.addEventListener('change', () => {
 unhideAnimal.addEventListener('click', () => {
     favoriteAnimal.classList.remove('hidden');
     unhideAnimal.classList.add('hidden');
-    console.log('thing is unhidden');
 });
 
 imageSelector.addEventListener('change', () => {
     const src = 'assets/animalPics/' + imageSelector.value;
     selectedImage.src = src;
+    console.log('image has changed');
 });
 
 animalNamer.addEventListener('input', () => {
