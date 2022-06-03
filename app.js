@@ -11,6 +11,7 @@ const theme = document.getElementById('theme-selector');
 checkbox.addEventListener('change', () => {
     unhideAnimal.disabled = checkbox.checked;
     checkbox.classList.add('hidden');
+    console.log('checkbox is checked');
 });
 
 unhideAnimal.addEventListener('click', () => {
