@@ -2,6 +2,9 @@
 wireframe.png for my basic idea. Whole page centered.
 
 
+wireframe.png for my basic idea. Whole page centered.
+
+
 State - Checkbox 
 Event - Onclick unlocks input button
 
@@ -16,3 +19,4 @@ Event - Changes animal display picture
 
 State - Dropdown Menu
 Event - Changes animal background theme
+

@@ -29,5 +29,4 @@ animalNamer.addEventListener('input', () => {
 
 theme.addEventListener('change', () => {
     selectedImage.style.border = `15px solid ${theme.value}`; 
-    
 });
