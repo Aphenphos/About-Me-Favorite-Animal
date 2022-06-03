@@ -21,14 +21,15 @@ unhideAnimal.addEventListener('click', () => {
 imageSelector.addEventListener('change', () => {
     const src = 'assets/animalPics/' + imageSelector.value;
     selectedImage.src = src;
-    console.log('image has changed');
 });
 
 animalNamer.addEventListener('input', () => {
     namedAnimal.textContent = animalNamer.value;
+    console.log('animal name has changed');
 });
 
 theme.addEventListener('change', () => {
     selectedImage.style.border = `15px solid ${theme.value}`; 
+    console.log('them has changed');
     
 });
